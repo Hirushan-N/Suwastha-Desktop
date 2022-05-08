@@ -203,7 +203,7 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JLabel" name="Jlabel1">
+    <Component class="javax.swing.JLabel" name="lblPID">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Nirmala UI" size="18" style="1"/>
@@ -307,7 +307,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="lblPatientId">
+    <Component class="javax.swing.JLabel" name="lblPatientName">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Nirmala UI" size="18" style="1"/>
