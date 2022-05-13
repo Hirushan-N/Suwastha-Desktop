@@ -230,7 +230,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="320" y="60" width="290" height="-1"/>
+          <AbsoluteConstraints x="320" y="60" width="270" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -445,7 +445,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="320" y="10" width="170" height="30"/>
+          <AbsoluteConstraints x="320" y="10" width="120" height="30"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -607,26 +607,20 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JComboBox" name="cmbBloodGroup1">
+    <Component class="javax.swing.JComboBox" name="cmbWard">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Nirmala UI" size="18" style="0"/>
         </Property>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="13">
-            <StringItem index="0" value="Unknown"/>
-            <StringItem index="1" value="A"/>
-            <StringItem index="2" value="A-"/>
-            <StringItem index="3" value="A+"/>
-            <StringItem index="4" value="B"/>
-            <StringItem index="5" value="B-"/>
-            <StringItem index="6" value="B+"/>
-            <StringItem index="7" value="AB"/>
-            <StringItem index="8" value="AB-"/>
-            <StringItem index="9" value="AB+"/>
-            <StringItem index="10" value="O"/>
-            <StringItem index="11" value="O-"/>
-            <StringItem index="12" value="O+"/>
+          <StringArray count="7">
+            <StringItem index="0" value="Not Set"/>
+            <StringItem index="1" value="WRD-000001"/>
+            <StringItem index="2" value="WRD-000002"/>
+            <StringItem index="3" value="WRD-000003"/>
+            <StringItem index="4" value="WRD-000004"/>
+            <StringItem index="5" value="WRD-000005"/>
+            <StringItem index="6" value="WRD-000006"/>
           </StringArray>
         </Property>
       </Properties>
@@ -697,5 +691,20 @@
         </Component>
       </SubComponents>
     </Container>
+    <Component class="javax.swing.JTextField" name="txtAID">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Nirmala UI" size="18" style="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtAIDFocusLost"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="450" y="10" width="250" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
   </SubComponents>
 </Form>
