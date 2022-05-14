@@ -98,6 +98,7 @@
             </Container>
             <Component class="javax.swing.JTextField" name="txtSectionID">
               <Properties>
+                <Property name="editable" type="boolean" value="false"/>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Nirmala UI" size="18" style="1"/>
                 </Property>
@@ -110,6 +111,7 @@
             </Component>
             <Component class="javax.swing.JTextField" name="txtConsultantName">
               <Properties>
+                <Property name="editable" type="boolean" value="false"/>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Nirmala UI" size="18" style="1"/>
                 </Property>
@@ -122,6 +124,7 @@
             </Component>
             <Component class="javax.swing.JTextField" name="txtSectionDescription">
               <Properties>
+                <Property name="editable" type="boolean" value="false"/>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Nirmala UI" size="18" style="1"/>
                 </Property>
@@ -134,10 +137,14 @@
             </Component>
             <Component class="javax.swing.JTextField" name="txtConsultantID">
               <Properties>
+                <Property name="editable" type="boolean" value="false"/>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Nirmala UI" size="18" style="1"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtConsultantIDFocusLost"/>
+              </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="490" y="320" width="250" height="-1"/>
@@ -198,6 +205,7 @@
             </Component>
             <Component class="javax.swing.JTextField" name="txtConsultantNIC">
               <Properties>
+                <Property name="editable" type="boolean" value="false"/>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Nirmala UI" size="18" style="1"/>
                 </Property>
@@ -235,6 +243,9 @@
               </Constraints>
             </Component>
             <Container class="javax.swing.JPanel" name="btnpaneEditAndSave">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnpaneEditAndSaveMouseClicked"/>
+              </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="480" y="620" width="620" height="50"/>
