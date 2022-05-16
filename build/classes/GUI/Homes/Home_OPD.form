@@ -157,7 +157,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="btnpanePatient" alignment="0" pref="280" max="32767" attributes="0"/>
                       <Component id="btnpaneAdmission" alignment="0" max="32767" attributes="0"/>
-                      <Component id="btnpaneDischarge" alignment="0" pref="280" max="32767" attributes="0"/>
+                      <Component id="btnpaneCreateAppoinment" alignment="0" pref="280" max="32767" attributes="0"/>
                       <Component id="jPanel5" alignment="0" pref="280" max="32767" attributes="0"/>
                       <Component id="btnpaneStartSession" alignment="1" pref="280" max="32767" attributes="0"/>
                   </Group>
@@ -173,7 +173,7 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="btnpaneAdmission" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="btnpaneDischarge" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnpaneCreateAppoinment" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="btnpaneStartSession" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -271,7 +271,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JPanel" name="btnpaneDischarge">
+        <Container class="javax.swing.JPanel" name="btnpaneCreateAppoinment">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="99" red="33" type="rgb"/>
@@ -280,6 +280,9 @@
               <Dimension value="[76, 55]"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnpaneCreateAppoinmentMouseClicked"/>
+          </Events>
 
           <Layout>
             <DimensionLayout dim="0">
